@@ -62,7 +62,7 @@ function checkWinner(){
 
     //velha
     if(winner == null && openSpots == 0){
-        return 'Velha';
+        return 'tie';
     }else{
         return winner;
     }
