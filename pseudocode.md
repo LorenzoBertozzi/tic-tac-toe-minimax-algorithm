@@ -3,7 +3,7 @@ ROTINA minimax(nó, profundidade, maximizador)
         RETORNE o valor da heurística do nó
     SENÃO SE maximizador é FALSE ENTÃO
         α ← +∞
-        PARA CADA filho DE nó
+            PARA CADA filho DE nó
             α ← min(α, minimax(filho, profundidade-1,true))
         FIM PARA
         RETORNE α
